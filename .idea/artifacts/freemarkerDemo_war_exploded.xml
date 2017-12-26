@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="freemarkerDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/freemarkerDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="freemarkerDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="freemarker-2.3.23" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="freemarkerDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
